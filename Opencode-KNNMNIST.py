@@ -1,4 +1,5 @@
-# Import necessary libraries
+#IMPORTING THE LIBRARIES
+#IM USING TENSORFLOW TO LOAD THE MNIST DATASET BECUASE THE OPENML.ORG DATASET WONT WORK ON MY SYSTEM, SORRY FOR THE INCONVENIENCE CAUSED:( .
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
